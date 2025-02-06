@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>No Racism Content Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #4f2f2f;
+      overflow-x: hidden;
+    }
+
+    /* Header Image */
+    .header-image {
+      width: 100%;
+      height: 400px; /* Adjust as needed */
+      background: url(Cross-through-racism.jpg) no-repeat center center;
+      background-size: cover;
+    }
+
+    /* Category Style */
+    .category {
+      display: flex;
+      border: 2px solid red;
+      animation: neon-glow 2s infinite;
+      box-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red, 0 0 40px red;
+      justify-content: space-between;
+      padding: 50px;
+      margin: 30px 0;
+      border-radius: 8px;
+      background-color: #f1f1f1;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    @keyframes neon-glow {
+      0% {
+        box-shadow: 0 0 5px red, 0 0 10px red, 0 0 20px red, 0 0 30px red;
+        border-color: red;
+      }
+      50% {
+        box-shadow: 0 0 5px blue, 0 0 10px blue, 0 0 20px blue, 0 0 30px blue;
+        border-color: blue;
+      }
+      100% {
+        box-shadow: 0 0 5px red, 0 0 10px red, 0 0 20px red, 0 0 30px red;
+        border-color: red;
+      }
+    }
+
+    .category-left {
+      width: 45%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .category-title {
+      font-size: 32px;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 15px;
+      text-align: left;
+    }
+
+ /* Small images with circular frames */
+.small-images {
+  display: flex;
+  flex-direction: column; /* Changed from row to column */
+  justify-content: space-between;
+  width: 100%;
+}
+
+.small-image {
+  width: 80%; /* Adjust width as needed */
+  height: auto;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px; /* Add spacing between images */
+}
+
+
+    /* Right side for the big image and paragraph */
+    .category-right {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .large-image {
+      width: 80%;
+      height: auto;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 30px;
+    }
+
+    .category-description {
+      font-size: 18px;
+      line-height: 1.8;
+      color: #555;
+      max-width: 600px;
+      text-align: justify;
+    }
+
+    .footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #121212;
+    
+    }
+
+    .footer p{
+        color: #fff;
+        font-size: 10px;
+    }
+
+    /* Different background colors for each category */
+    .category:nth-child(1) {
+      background-color: #ffffff; /* Light Gray */
+    }
+    .category:nth-child(2) {
+      background-color: #000000; /* Light Blue */
+    }
+    .category:nth-child(3) {
+      background-color: #ffffff; /* Light Orange */
+    }
+    .category:nth-child(4) {
+      background-color: #000000; /* Light Green */
+    }
+    .category:nth-child(5) {
+      background-color: #ffffff; /* Light Yellow */
+    }
+
+    .category:nth-child(6) {
+      background-color: #000000; /* Light Yellow */
+    }
+
+    .category:nth-child(7) {
+      background-color: #ffffff; /* Light Yellow */
+    }
+
+    .category:nth-child(8) {
+      background-color: #000000; /* Light Yellow */
+    }
+
+    .category:nth-child(9) {
+      background-color: #ffffff; /* Light Yellow */
+    }
+
+    .category:nth-child(10) {
+      background-color: #000000; /* Light Yellow */
+    }
+
+    .category:nth-child(11) {
+      background-color: #ffffff; /* Light Yellow */
+    }
+
+    .category:nth-child(12) {
+      background-color: #000000; /* Light Yellow */
+    }
+
+    .category:nth-child(13) {
+      background-color: #e8f1f8; /* Light Yellow */
+    }
+
+    .category:nth-child(14) {
+      background-color: #f4c9d5; /* Light Yellow */
+    }
+
+
+
+
+    /* Responsive Adjustments */
+    @media (max-width: 768px) {
+      .category {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .category-left,
+      .category-right {
+        width: 100%;
+        margin-bottom: 30px;
+      }
+
+      .large-image {
+        width: 90%;
+      }
+
+      .small-image {
+        width: 25%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header Image Section (Add your own image here) -->
+  <div class="header-image"></div>
+
+  <!-- Category 1 -->
+  <div class="category">
+    <div class="category-left">
+      <h2 class="category-title">Introduction</h2>
+      <div class="small-images">
+        <img src="contt.jpg" alt="Small Image 1" class="small-image">
+        <img src="dfdf.jpg" alt="Small Image 2" class="small-image">
+      </div>
+    </div>
+    <div class="category-right">
+      <img src="Cross-through-racism.jpg" alt="Large Image 1" class="large-image">
+      <p class="category-description">
+       
+        Understanding the connection between community cohesion and racism is crucial in promoting inclusive and harmonious societies. Learn how fostering strong, cohesive communities can help combat racism. Community cohesion means the strength of relationships and the sense of togetherness among people in a community. When communities are cohesive, people feel like they belong and respect each other, which can help reduce racism. 
+
+        Building strong, cohesive communities can play a big role in fighting racism and creating a more inclusive environment for everyone. By promoting understanding, empathy, and working together, cohesive communities can create a supportive atmosphere where diversity is celebrated, and discrimination is actively challenged. We could explore how community cohesion can impact racism, the challenges that may come up, and the steps that can be taken to build more inclusive and united communities. 
+      </p>
+    </div>
+  </div>
+
+  <!-- Category 2 -->
+  <div class="category">
+    <div class="category-left">
+      <h2 class="category-title">support networks</h2>
+      <div class="small-images">
+        <img src="sl2.jpg" alt="Small Image 4" class="small-image">
+        <img src="sli2.jpg" alt="Small Image 5" class="small-image">
+      </div>
+    </div>
+    <div class="category-right">
+      <img src="no-to-racism-jdd2j5aukaz805ad.jpg" alt="Large Image 2" class="large-image">
+      <p class="category-description">
+        A supportive network can help fight racism and discrimination by creating a place where people feel heard and understood. These networks can teach people about issues related to race and discrimination, encouraging them to respect each other. When people come together to support each other, they are more likely to learn about the challenges different groups face and become allies in making changes. A strong support system helps people recognize their biases and work to change them.
+
+Supportive networks can also offer resources and chances for people from marginalized groups to succeed. For example, mentorship programs or workshops on diversity can help individuals grow and feel empowered. When people are given tools to succeed and encouraged to work together, it can break down barriers and challenge prejudices. Working with people from different backgrounds creates an environment where racism and discrimination are less likely to be accepted.
+
+Finally, a supportive network can hold people and organizations responsible for fighting racism and discrimination. These networks can push for policy changes, challenge unfair behavior, and demand more equality in schools, workplaces, and other places. By standing together against injustice, people can help build a society that values fairness and equality for everyone.
+      </p>
+    </div>
+  </div>
+
+  <!-- Category 3 -->
+  <div class="category">
+    <div class="category-left">
+      <h2 class="category-title">Building relationship and interaction</h2>
+      <div class="small-images">
+        <img src="sl3.jpg" alt="Small Image 7" class="small-image">
+        <img src="sli3.jpg" alt="Small Image 8" class="small-image">
+      </div>
+    </div>
+    <div class="category-right">
+      <img src="360_F_369136125_dYCcC3mgGjHcMFhIsGvsZ5JHhYYKPiNs.jpg" alt="Large Image 3" class="large-image">
+      <p class="category-description">
+       
+Strong relationships and strong communities build relationships within diverse communities can break down prejudices and foster understanding.
+
+Open and honest communication is the foundation of any strong relationship. Encouraging people to share their thoughts, feelings, and experiences can help build trust and understanding. It's important to listen actively and participate in shared activities, such as community events, sports, or volunteer work, can help people bond and create a sense of belonging. These activities provide opportunities for individuals from diverse backgrounds to interact and build positive relationships. 
+
+Offering support and encouragement to others can strengthen relationships and foster a sense of community. Whether it's providing a listening ear, offering help, or celebrating each other's achievements, showing support can make a big difference. By focusing on these aspects, communities can build strong, positive relationships that promote unity and reduce racism.
+      </p>
+    </div>
+  </div>
+
+  <div class="category">
+    <div class="category-left">
+      <h2 class="category-title">Shared goals and projects</h2>
+      <div class="small-images">
+        <img src="sl4.jpg" alt="Small Image 7" class="small-image">
+        <img src="sli4.jpg" alt="Small Image 8" class="small-image">
+      </div>
+    </div>
+    <div class="category-right">
+      <img src="juneteenth-day-say-no-racism_92741-487.avif" alt="Large Image 3" class="large-image">
+      <p class="category-description">
+        When people work together towards common objectives, they feel like collaborating more, that can help promote inclusivity. The first step is to find common goals that everyone in the community cares about. These goals can be things like improving local parks, organizing cultural events, or helping those in need. By focusing on shared goals, people can work together for a common purpose. 
+
+        Involving everyone in the planning process ensures that all voices are heard and valued. Planning together brings different ideas and perspectives. It also helps people feel more committed to the project. Working on shared projects requires teamwork, when people collaborate, they learn to appreciate each other's strengths and contributions. This can help break down barriers and build trust among community members from different backgrounds. 
+        
+        Recognizing and celebrating the success of shared projects can boost morale and reinforce the sense of unity within the community. Celebrations can include events, awards, or public acknowledgments that highlight the contributions of all participants.
+      </p>
+    </div>
+  </div>
+
+  <div class="category">
+    <div class="category-left">
+      <h2 class="category-title">Media represention</h2>
+      <div class="small-images">
+        <img src="sl5.jpg" alt="Small Image 7" class="small-image">
+        <img src="sli5.jpg" alt="Small Image 8" class="small-image">
+      </div>
+    </div>
+    <div class="category-right">
+     
+      <p class="category-description">
+       
+Media plays an important role in fighting racism and discrimination. When movies, TV shows, and news show people from different races in a positive way, it helps challenge the negative stereotypes people may have. Instead of seeing people of color as criminals or victims, media can show them as strong, successful, and complex individuals, helping to change how society views them.
+
+In addition it also gives a voice to people who are often ignored, letting them share their experiences. Documentaries, news stories, and social media posts can bring attention to real problems like racism and unfair treatment. When people understand these issues better, they are more likely to care and take action to stop discrimination.
+
+Finally, media can teach us about diversity and inclusion. Ads, social media campaigns, and movies can encourage people to think about their own biases and how to be more accepting. The more people see messages about equality, the more likely they are to support change and stand up against racism.
+      </p>
+    </div>
+  </div>
+
+  <div class="category">
+    <div class="category-left">
+      <h2 class="category-title">Inclusive events</h2>
+      <div class="small-images">
+        <img src="sl6.jpg" alt="Small Image 7" class="small-image">
+        <img src="sli6.jpg" alt="Small Image 8" class="small-image">
+      </div>
+    </div>
+    <div class="category-right">
+     
+      <p class="category-description">
+        
+Exclusive events are gatherings or activities that are designed for a specific group of people. While these events can provide a sense of belonging and community for the participants, they can also create divisions and feelings of exclusion among those who are not included. Exclusive events are organized to meet the needs and interests of a particular group. These events can provide a safe space for people to connect and share experiences. For example, professional networking events or cultural festivals can help participants bond and support each other. 
+
+Exclusive events can also be an opportunity to promote understanding and appreciation of different cultures, identities, and experiences. By sharing the outcomes and insights gained from these events with the wider community, organizers can help bridge gaps and foster a more inclusive environment.
+      </p>
+    </div>
+  </div>
+
+  <div class="category">
+    <div class="category-left">
+      <h2 class="category-title">Local goverment and policies</h2>
+      <div class="small-images">
+        <img src="sl7.jpg" alt="Small Image 7" class="small-image">
+        <img src="sli7.jpg" alt="Small Image 8" class="small-image">
+      </div>
+    </div>
+    <div class="category-right">
+      
+      <p class="category-description">
+        In Italy, local governments are working to fight racism by following national anti-discrimination laws and running programs to promote equality. They often team up with organizations to raise awareness about racial issues and offer support to people facing discrimination in their communities.
+
+Many cities also have programs to help different cultural groups connect and feel more included. These programs offer language lessons, job training, and activities that bring people together. The goal is to reduce prejudice and help people from different backgrounds understand each other better.
+
+Local governments also work with non-governmental organizations (NGOs) to address racial violence and discrimination. They provide legal and social support to those in need and promote equality. In schools, programs teach kids about respect and tolerance, helping them grow up with a better understanding of diversity.
+      </p>
+    </div>
+  </div>
+
+  <div class="category">
+    <div class="category-left">
+      <h2 class="category-title">Social media</h2>
+      <div class="small-images">
+        <img src="sl8.jpg" alt="Small Image 7" class="small-image">
+        <img src="sli8.jpg" alt="Small Image 8" class="small-image">
+      </div>
+    </div>
+    <div class="category-right">
+     
+      <p class="category-description">
+        Social media can help reduce racism by giving people a platform to share their personal experiences. When people from different backgrounds talk about how racism has affected them, it helps others understand their struggles and build empathy. This can lead to more support for anti-racist actions and a greater willingness to challenge racism when it’s seen.
+
+It also allows communities to come together and support each other. Social media makes it easier for people who want to fight racism to connect, share resources, and collaborate on projects. These online communities can provide strength and encouragement, making it easier to work together toward positive change.
+
+In addition, social media can expose and hold people accountable for racist actions. When incidents of racism are shared online, it often leads to public discussions and calls for change. This pressure can push individuals, businesses, and institutions to take action and make things right, helping to create a more inclusive and fair society.
+      </p>
+    </div>
+  </div>
+
+  <div class="category">
+    <div class="category-left">
+      <h2 class="category-title">Education and awareness</h2>
+      <div class="small-images">
+        <img src="sl9.jpg" alt="Small Image 7" class="small-image">
+        <img src="sli9.jpg" alt="Small Image 8" class="small-image">
+      </div>
+    </div>
+    <div class="category-right">
+    
+      <p class="category-description">
+        Education and awareness are powerful tools to fight against racism. Raising awareness about racism means informing people about its existence and impact, this can be done through campaigns, workshops, seminars, and public discussions, it also helps people recognize the problem and understand its consequences. 
+
+        Education programs can be implemented in schools, workplaces, and communities to teach people about the history and effects of racism. These programs can include lessons on cultural diversity, human rights, and the importance of inclusivity. Educating people from a young age can help shape their attitudes and behaviors towards others.
+      </p>
+    </div>
+  </div>
+
+  <div class="category">
+    <div class="category-left">
+      <h2 class="category-title">Personal stories</h2>
+      <div class="small-images">
+        <img src="sl10.jpg" alt="Small Image 7" class="small-image">
+        <img src="sli10.jpg" alt="Small Image 8" class="small-image">
+      </div>
+    </div>
+    <div class="category-right">
+     
+      <p class="category-description">
+        “Injustice anywhere is a threat to justice everywhere.” This means that racism isn’t just a problem for one group of people—it hurts everyone in society. When racism is allowed to exist in one place, it affects the fairness and equality of all people. To fight racism, we need to realize it’s something we all need to work on, not just those who are directly affected.
+
+Fighting racism means we must take action. It’s not enough to just avoid being racist; we must also speak out when we see racism happening. This includes standing up against unfair laws, supporting policies that give everyone equal rights, and listening to those who experience racism. When we all work together to fight racism, we help create a world where justice is real for everyone.
+
+Another important part of fighting is learning and understanding. We need to listen to the stories of people who face racism and learn about how it affects them. By doing this, we can help break down stereotypes and build a more caring society. As Martin Luther King Jr. said, “if we all stand together and fight for justice, we can make the world a better, more equal place for everyone.”
+      </p>
+    </div>
+  </div>
+
+  <div class="category">
+    <div class="category-left">
+      <h2 class="category-title">conclution and future direction</h2>
+      <div class="small-images">
+        <img src="sl11.jpg" alt="Small Image 7" class="small-image">
+        <img src="sli11.jpg" alt="Small Image 8" class="small-image">
+      </div>
+    </div>
+    <div class="category-right">
+      
+      <p class="category-description">
+        By looking at both the positive effects and the obstacles, we can better understand how to create a society where everyone feels valued and respected. Community cohesion is not just about reducing racism; it also involves creating a sense of belonging and mutual respect among all members of the community. When people feel connected and supported, they are more likely to work together to address issues like racism. This sense of unity can lead to stronger, more resilient communities that are better equipped to handle challenges and promote positive change. 
+
+        When people work together towards common objectives, they build stronger relationships and create a more harmonious society. By focusing on these aspects, we can create a more informed and empathetic society, leading to stronger and more cohesive communities where everyone feels valued and respected.
+      </p>
+    </div>
+  </div>
+
+  <!-- Repeat similar structure for categories 4-13 -->
+  <footer class="footer">
+    <p>© 2025 no more. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
